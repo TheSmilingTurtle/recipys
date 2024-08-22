@@ -4,7 +4,7 @@ from typing import Optional
 
 from rich import print
 from rich.panel import Panel
-from rich.console import RenderGroup
+from rich.console import Group as RenderGroup
 
 from recipys.types import Printable, RecipeConstraints
 from recipys.constants import (
